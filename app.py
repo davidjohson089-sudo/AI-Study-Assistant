@@ -10,7 +10,7 @@ CORS(app)
 HF_API_KEY = os.getenv("WIX")
 
 headers = {
-    "Authorization": f"Bearer {HF_API_KEY}}",
+    "Authorization": f"Bearer {HF_API_KEY}",
     "Content-Type": "application/json"
 }
 
@@ -115,6 +115,7 @@ def home():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
 
 
 
